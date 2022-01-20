@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab1_part_1</title>
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="cfg-input-wrapper">
+        <label class="file-upload-label">
+            <input type="file" class="cfg-input"/>
+            Load the configuration file 
+        </label>
+    </div>
+    
+    <div class="wrapper">
+        <label class="file-upload-label">
+            <input type="file" id="file">
+            Load dataset
+        </label>
+        
+        <div class="buttons-labels-container">
+            <div class="normalize-container">
+                <h4>Enter the range to normalize ([0, 1] by default) and press the button to normalize</h4>
+                <input type="text" class="min-value" value="0">
+                <input type="text" class="max-value" value="1">
+                <button class="data-normalizer">Normalize</button>
+            </div>
+            <div class="saver-container">
+                <h4>Enter name and extension of the file and press the button to save the file</h4>
+                <input type="text" class="saver" >
+                <button class="save-file">Save</button>
+            </div>
+            <div class="delete-column-container">
+                <h4>Enter number of the column to delete and press the button</h4>
+                <input type="text" class="column" p>
+                <button class="delete-column">Delete</button>
+            </div>
+            <div class="rest-container">
+                <button class="reset">Reset</button>
+                <button class="knn-button">KNN</button>
+                <button class="mark-class-atr">Mark Class Attribute</button>
+                <button class="generate-new-cfg">Generate New cfg File</button>
+                
+            </div>
+            
+        </div>
+        
+        <div class="data-container">
+            <table class="data-table"></table>
+        </div>
+
+        
+        
+    </div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/underscore@1.12.1/underscore-min.js
+    "></script>
+    <script src="./FileSaver.js"></script>
+    <script src="./main.js"></script>
+</body>
+</html>

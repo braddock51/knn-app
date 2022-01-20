@@ -1,0 +1,38 @@
+{
+    "numbersOfAttribute" : 15,
+    "classAtributePlace" : 14,
+    "attributeRanges" : {
+        "a0Min" : "0",
+        "a0Max" : "1",
+        "a1Min" : "13.75",
+        "a1Max" : "80.25",
+        "a2Min" : "0",
+        "a2Max" : "28",
+        "a3Min" : "1",
+        "a3Max" : "3",
+        "a4Min" : "1",
+        "a4Max" : "14",
+        "a5Min" : "1",
+        "a5Max" : "9",
+        "a6Min" : "0",
+        "a6Max" : "28.5",
+        "a7Min" : "0",
+        "a7Max" : "1",
+        "a8Min" : "0",
+        "a8Max" : "1",
+        "a9Min" : "0",
+        "a9Max" : "67",
+        "a10Min" : "0",
+        "a10Max" : "1",
+        "a11Min" : "1",
+        "a11Max" : "3",
+        "a12Min" : "0",
+        "a12Max" : "2000",
+        "a13Min" : "1",
+        "a13Max" : "100001",
+        "a14Min" : "0",
+        "a14Max" : "1"
+    }
+    
+}
+    
